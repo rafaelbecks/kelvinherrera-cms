@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_links_redes_sociales",
+  "info": {
+    "name": "redes_sociales",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "nombre_red": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "kind": "collectionType",
+  "collectionName": "autores",
+  "info": {
+    "name": "autores",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "email": {
+      "type": "email"
+    },
+    "nombre": {
+      "type": "string"
+    },
+    "telefono": {
+      "type": "string"
+    },
+    "localizacion": {
+      "type": "string"
+    },
+    "redes_sociales": {
+      "type": "component",
+      "repeatable": false,
+      "component": "links.redes-sociales"
+    },
+    "imagen": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "biografia": {
+      "type": "richtext"
+    },
+    "tipo_credito": {
+      "model": "tipo-credito"
+    }
+  }
+}

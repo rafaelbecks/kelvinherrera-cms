@@ -1,0 +1,48 @@
+{
+  "kind": "collectionType",
+  "collectionName": "galerias",
+  "info": {
+    "name": "Galería",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "descripcion": {
+      "type": "richtext"
+    },
+    "fecha_publicacion": {
+      "type": "date"
+    },
+    "orden": {
+      "type": "integer"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "titulo"
+    },
+    "portada": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "media_url": {
+      "type": "string"
+    },
+    "autores": {
+      "collection": "autores"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tipo_creditos",
+  "info": {
+    "name": "tipo_credito"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Nombre": {
+      "type": "string"
+    }
+  }
+}
