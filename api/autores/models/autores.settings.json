@@ -42,8 +42,8 @@
     "biografia": {
       "type": "richtext"
     },
-    "tipo_credito": {
-      "model": "tipo-credito"
+    "credito": {
+      "type": "string"
     }
   }
 }
