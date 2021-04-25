@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/barca-de-los-placeres",
+      "handler": "barca-de-los-placeres.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/barca-de-los-placeres/count",
+      "handler": "barca-de-los-placeres.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/barca-de-los-placeres/:id",
+      "handler": "barca-de-los-placeres.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/barca-de-los-placeres",
+      "handler": "barca-de-los-placeres.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/barca-de-los-placeres/:id",
+      "handler": "barca-de-los-placeres.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/barca-de-los-placeres/:id",
+      "handler": "barca-de-los-placeres.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

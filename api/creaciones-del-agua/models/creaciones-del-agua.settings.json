@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "tipo_creditos",
+  "collectionName": "creaciones_del_aguas",
   "info": {
-    "name": "tipo_credito"
+    "name": "Creaciones del agua"
   },
   "options": {
     "increments": true,
@@ -10,7 +10,10 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "Nombre": {
+    "Descripcion": {
+      "type": "richtext"
+    },
+    "Boton": {
       "type": "string"
     }
   }

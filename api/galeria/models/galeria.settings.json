@@ -43,6 +43,13 @@
     },
     "autores": {
       "collection": "autores"
+    },
+    "fuente": {
+      "type": "enumeration",
+      "enum": [
+        "youtube",
+        "vimeo"
+      ]
     }
   }
 }

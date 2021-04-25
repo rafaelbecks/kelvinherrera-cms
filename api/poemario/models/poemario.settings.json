@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "poemarios",
+  "info": {
+    "name": "Poemario",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Introduccion": {
+      "type": "text"
+    },
+    "mis_rios": {
+      "type": "text"
+    },
+    "Poemario": {
+      "type": "richtext"
+    },
+    "Precio": {
+      "type": "decimal"
+    },
+    "bio_autores": {
+      "type": "richtext"
+    },
+    "autor": {
+      "type": "richtext"
+    }
+  }
+}

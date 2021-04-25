@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "legals",
+  "info": {
+    "name": "Legal"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "aviso_legal": {
+      "type": "richtext"
+    },
+    "politica_privacidad": {
+      "type": "richtext"
+    },
+    "cookies": {
+      "type": "richtext"
+    }
+  }
+}

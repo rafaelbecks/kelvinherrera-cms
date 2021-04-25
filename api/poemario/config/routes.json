@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/poemarios",
+      "handler": "poemario.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/poemarios/count",
+      "handler": "poemario.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/poemarios/:id",
+      "handler": "poemario.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/poemarios",
+      "handler": "poemario.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/poemarios/:id",
+      "handler": "poemario.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/poemarios/:id",
+      "handler": "poemario.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

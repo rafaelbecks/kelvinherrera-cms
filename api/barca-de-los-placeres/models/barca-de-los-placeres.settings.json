@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "barca_de_los_placeres",
+  "info": {
+    "name": "Barca de los placeres"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Descripcion": {
+      "type": "text"
+    },
+    "Cuerpo": {
+      "type": "richtext"
+    },
+    "Patreon": {
+      "type": "string"
+    }
+  }
+}

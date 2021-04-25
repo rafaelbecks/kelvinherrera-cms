@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/tipo-creditos",
-      "handler": "tipo-credito.find",
+      "path": "/creaciones-del-aguas",
+      "handler": "creaciones-del-agua.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/tipo-creditos/count",
-      "handler": "tipo-credito.count",
+      "path": "/creaciones-del-aguas/count",
+      "handler": "creaciones-del-agua.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/tipo-creditos/:id",
-      "handler": "tipo-credito.findOne",
+      "path": "/creaciones-del-aguas/:id",
+      "handler": "creaciones-del-agua.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/tipo-creditos",
-      "handler": "tipo-credito.create",
+      "path": "/creaciones-del-aguas",
+      "handler": "creaciones-del-agua.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/tipo-creditos/:id",
-      "handler": "tipo-credito.update",
+      "path": "/creaciones-del-aguas/:id",
+      "handler": "creaciones-del-agua.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/tipo-creditos/:id",
-      "handler": "tipo-credito.delete",
+      "path": "/creaciones-del-aguas/:id",
+      "handler": "creaciones-del-agua.delete",
       "config": {
         "policies": []
       }
