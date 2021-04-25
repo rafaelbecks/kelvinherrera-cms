@@ -44,6 +44,10 @@
     },
     "credito": {
       "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "nombre"
     }
   }
 }
