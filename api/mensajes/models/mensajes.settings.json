@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "mensajes",
+  "info": {
+    "name": "Mensajes"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Nombre": {
+      "type": "string"
+    },
+    "Apellido": {
+      "type": "string"
+    },
+    "Correo": {
+      "type": "string"
+    },
+    "Asunto": {
+      "type": "string"
+    },
+    "Comentario": {
+      "type": "text"
+    },
+    "fecha": {
+      "type": "datetime"
+    }
+  }
+}
