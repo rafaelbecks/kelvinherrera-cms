@@ -50,6 +50,9 @@
         "youtube",
         "vimeo"
       ]
+    },
+    "categoria": {
+      "model": "categorias"
     }
   }
 }
